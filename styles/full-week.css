@@ -20,6 +20,8 @@ a {
   color: white;
   border-radius: 4px;
   font-size: 24px;
+  display: inline-block;
+  margin-bottom: 12px 0px;
 }
 a:hover {
   background-color: rgb(180, 12, 90);
@@ -37,6 +39,11 @@ li {
   margin: 32px;
   background-color: rgb(223, 136, 124);
   border-radius: 6px;
+  box-shadow: 0.2rem 0.2rem 0.4rem 0.1rem rgba(0, 0, 0, 0.4);
+}
+li:hover {
+  cursor: pointer;
+  box-shadow: 0.15rem 0.15rem 0.3rem rgba(0, 0, 0, 0.6);
 }
 
 h2 {
